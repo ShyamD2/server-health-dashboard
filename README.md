@@ -5,6 +5,10 @@ live host metrics over a WebSocket to a React + TypeScript frontend styled as an
 instrumentation console (live oscilloscope-style CPU trace, per-core bars, disk
 and network panels, top-process table).
 
+## Output
+
+![Output Screenshot](./Screenshot.png)
+
 ```
 server-health-dashboard/
 ├── backend/          FastAPI app (psutil metrics, REST + WebSocket)
